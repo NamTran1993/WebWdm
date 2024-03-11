@@ -1,0 +1,64 @@
+﻿.page-MasterPage {
+    .div-header {
+        height: 50px;
+        background: #273c75;
+        color: #fff;
+        padding: 10px;
+        font-style: italic;
+
+        .server-info {
+            background: #273c75;
+        }
+    }
+
+    .body-page {
+        max-width: 1500px;
+        margin: auto;
+        min-height: 460px;
+        height: 100%;
+        margin-top: 10px;
+
+        .button-1 {
+            background-color: #EA4C89;
+            border-radius: 8px;
+            border-style: none;
+            box-sizing: border-box;
+            color: #FFFFFF;
+            cursor: pointer;
+            display: inline-block;
+            font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            height: 40px;
+            line-height: 20px;
+            list-style: none;
+            margin: 0;
+            outline: none;
+            padding: 10px 16px;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            transition: color 100ms;
+            vertical-align: baseline;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+        }
+
+        .button-1:hover,
+        .button-1:focus {
+            background-color: #F082AC;
+        }
+    }
+
+    .footer-page {
+        margin-top: 5px;
+        background-color: #173e76;
+        overflow-x: hidden;
+        color: white;
+
+        .lbl-footer {
+            padding: 23px;
+        }
+    }
+}

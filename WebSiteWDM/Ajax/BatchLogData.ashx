@@ -1,0 +1,1 @@
+﻿<%@ WebHandler Language="C#" Class="BatchLogData" CodeBehind="~/App_Code/Ajax/BatchLogData.cs"%>
