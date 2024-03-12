@@ -1,4 +1,9 @@
-﻿.page-MasterPage {
+﻿@font-face {
+    font-family: 'Raleway-Thin';
+    src: url('../../Asset/fonts/Raleway-Thin.ttf') format('truetype');
+}
+
+.page-MasterPage {
     .div-header {
         height: 50px;
         background: #273c75;
@@ -54,11 +59,74 @@
     .footer-page {
         margin-top: 5px;
         background-color: #173e76;
-        overflow-x: hidden;
+        /*overflow-x: hidden;*/
         color: white;
 
         .lbl-footer {
-            padding: 23px;
+            padding: 10px;
         }
     }
+}
+
+.nav-bar {
+    background-color: #EA4C89;
+
+    margin:0 auto;
+
+    ul {
+        list-style-type: none;
+    }
+
+    li a {
+        color: #F1FAEE;
+        font-size: 30px;
+        column-width: 2%;
+    }
+
+    li {
+        display: inline;
+        padding-left: 2px;
+        column-width: 20px;
+
+        &.home-logo a {
+            color: #1B3C73 !important;
+            font-weight: bold;
+            font-family: 'Raleway-Thin'
+        }
+    }
+
+    a {
+        text-decoration: none;
+        margin-right: 20px;
+    }
+
+    li a:hover {
+        color: #FFCAD4;
+    }
+}
+
+.header-title {
+    color: #5E1675;
+}
+
+#side {
+    .title {
+        text-align: center;
+    }
+
+    margin-right:1%;
+    float: right;
+    width: 9%;
+ /*   height: 762px;*/
+    background-color: #F1FAEE;
+    padding-left: 10px;
+    box-sizing: content-box;
+    padding-bottom:10px;
+}
+
+.main-img {
+    background: url(/Asset/img/top_img.jpg) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    min-height: 740px;
 }
