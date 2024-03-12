@@ -123,3 +123,10 @@
     box-sizing: content-box;
     padding-bottom:10px;
 }
+
+.main-img {
+    background: url(/Asset/img/top_img.jpg) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    min-height: 740px;
+}

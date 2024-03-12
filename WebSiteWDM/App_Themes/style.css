@@ -107,6 +107,13 @@
   text-align: center;
 }
 
+.main-img {
+  background: url(/Asset/img/top_img.jpg) no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  min-height: 740px;
+}
+
 .page-Monitor .div-table {
   overflow-y: auto;
   margin-top: 10px;
