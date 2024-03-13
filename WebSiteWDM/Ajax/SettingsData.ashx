@@ -1,0 +1,1 @@
+﻿<%@ WebHandler Language="C#" Class="SettingsData" CodeBehind="~/App_Code/Ajax/SettingsData.cs"%>
