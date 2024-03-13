@@ -51,7 +51,7 @@
                     <li class="home-logo"><a href="Home.aspx">WDM Team</a></li>
                     <li><a href="MakeBillGmo.aspx">Make Bill Gmo</a></li>
                     <li><a href="MornitorLog.aspx">Mornitor Log</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="Settings.aspx">Settings</a></li>
                 </ul>
             </nav>
 
