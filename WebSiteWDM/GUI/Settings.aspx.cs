@@ -9,6 +9,7 @@ public partial class GUI_Settings : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        this._info_header.InnerText = string.Format("Server connection information: {0}", SettingUtility.ConnectionString);
 
     }
 }

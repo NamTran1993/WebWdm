@@ -29,7 +29,14 @@
                         <tr data-ng-show="dbSettings.length == 0">
                             <td class="col-norecord" colspan="10">No record found.</td>
                         </tr>
-                        <tr data-ng-repeat="x in dbSettings" data-ng-show="dbSettings.length > 0">
+                        <tr  data-ng-show="dbSettings.length > 0" class="tr-filter">
+                            <td></td>
+                            <td><i class="fas fa-filter"></i><input ng-model="filter.SQLServerIP" class="input-filter" type="text" id="SQLServerIP" name ="SQLServerIP" placeholder="Search..."  /></td>
+                            <td><i class="fas fa-filter"></i><input ng-model="filter.User"  class="input-filter" type="text" id="User" name ="User" placeholder="Search..."  /></td>
+                            <td><i class="fas fa-filter"></i><input ng-model="filter.Password" class="input-filter" type="text" id="Password" name ="Password" placeholder="Search..."  /></td>
+                            <td><i class="fas fa-filter"></i><input ng-model="filter.Database" class="input-filter" type="text" id="Database" name ="Database" placeholder="Search..." /></td>
+                        </tr>
+                        <tr data-ng-repeat="x in dbSettings | filter:filter" data-ng-show="dbSettings.length > 0">
                             <td>
                                 <p>{{$index + 1 + ((pageIndex - 1) * recordPerPage)}}</p>
                             </td>
@@ -53,6 +60,13 @@
                     </tbody>
                 </table>
             </div>
+
+            <div class="div-header" id="_divheader">
+                    <marquee width="100%" direction="right">
+                        <p id="_info_header" runat="server"></p>
+                    </marquee>
+                </div>
+
         </div>
     </div>
 </asp:Content>

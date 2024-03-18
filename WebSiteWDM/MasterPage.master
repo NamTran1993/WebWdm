@@ -39,13 +39,11 @@
     <form id="pageMaster" runat="server">
         <div class="page-MasterPage">
             <header>
-                <div class="div-header" id="_divheader">
+                <%--<div class="div-header" id="_divheader">
                     <marquee width="100%" direction="right">
                         <p id="_info_header" runat="server"></p>
                     </marquee>
-                </div>
-            </header>
-
+                </div>--%>
             <nav class ="nav-bar">
                 <ul>
                     <li class="home-logo"><a href="Home.aspx">WDM Team</a></li>
@@ -54,6 +52,8 @@
                     <li><a href="Settings.aspx">Settings</a></li>
                 </ul>
             </nav>
+            </header>
+
 
             <aside id="side">
                 <h1 class="title">News</h1>

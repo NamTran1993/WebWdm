@@ -1,0 +1,33 @@
+﻿.tr-filter {
+
+    td {
+        padding: 0 2px;
+        border: 0;
+
+        i{
+            color:dimgray;
+        }
+
+        input:focus-visible {
+            outline: none;
+        }
+
+        input:hover {
+            outline: none;
+        }
+    }
+}
+.input-filter {
+    width: 90%;
+    padding: 0;
+    border: 0;
+    border-bottom: solid 1px;
+    color: dimgray;
+    padding-left:5px;
+
+    &:after {
+
+    }
+}
+
+

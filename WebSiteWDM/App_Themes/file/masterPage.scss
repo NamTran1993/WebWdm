@@ -69,18 +69,16 @@
 }
 
 .nav-bar {
-    background-color: #EA4C89;
-
-    margin:0 auto;
+    background: rgba(6, 20, 81, 0.95);
+    margin: 0 auto;
 
     ul {
         list-style-type: none;
     }
 
     li a {
-        color: #F1FAEE;
-        font-size: 30px;
-        column-width: 2%;
+        color: #1fafee;
+        font-size: 25px;
     }
 
     li {
@@ -89,8 +87,7 @@
         column-width: 20px;
 
         &.home-logo a {
-            color: #1B3C73 !important;
-            font-weight: bold;
+            color: #e9ecef !important;
             font-family: 'Raleway-Thin'
         }
     }
