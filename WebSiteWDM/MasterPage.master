@@ -46,12 +46,13 @@
                 </div>
             </header>
 
-            <nav class ="nav-bar">
+            <nav class="nav-bar">
                 <ul>
-                    <li class="home-logo"><a href="Home.aspx">WDM Team</a></li>
-                    <li><a href="MakeBillGmo.aspx">Make Bill Gmo</a></li>
-                    <li><a href="MornitorLog.aspx">Mornitor Log</a></li>
-                    <li><a href="Settings.aspx">Settings</a></li>
+                    <li class="home-logo"><a href="index">WDM Team</a></li>
+                    <li><a href="makebillgmo">Make Bill Gmo</a></li>
+                    <li><a href="monitorlog">Mornitor Log</a></li>
+                    <li><a href="setting">Settings</a></li>
+                    <li><a href="wiki">Wiki</a></li>
                 </ul>
             </nav>
 
@@ -73,7 +74,6 @@
                     <uc1:VersionFooter ID="ContentPlaceHolderFoot" runat="server" />
                     <div>
                         <asp:ContentPlaceHolder ID="ContentPlaceBodyFooter" runat="server">
-<%--                            <p class="lbl-footer" runat="Server">© Copyright 2025</p>--%>
                         </asp:ContentPlaceHolder>
                     </div>
                 </div>
